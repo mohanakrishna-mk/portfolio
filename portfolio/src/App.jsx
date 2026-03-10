@@ -81,7 +81,7 @@ export default function App() {
             <div className="flex flex-wrap gap-4">
 
               <a
-                href="/resume.pdf"
+                href="/Mohana_Krishna_4.1yrs.pdf"
                 className="bg-blue-600 text-white px-7 py-3 rounded-lg hover:bg-blue-700"
               >
                 Download Resume
