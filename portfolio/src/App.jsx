@@ -185,29 +185,29 @@ export default function App() {
 
           <div className="relative border-l border-gray-300 ml-4 space-y-12">
 
-            <TimelineProject
-              title="Digital Onboarding Platform"
-              date="2023"
-              description="KYC onboarding workflow with OCR and verification automation."
-              impact="Reduced manual work by 50%."
-              tags={["Next.js","Node.js","PostgreSQL","AWS"]}
-            />
+          <TimelineProject
+            title="ConnectOne — Digital Customer Onboarding Platform"
+            date="Jul 2024 – Present"
+            description="Digital KYC onboarding platform with document upload, OCR verification and compliance workflow."
+            impact="Reduced manual KYC review workload by 50%."
+            tags={["Next.js","Node.js","PostgreSQL","Redis","AWS","Docker"]}
+          />
 
-            <TimelineProject
-              title="Warehouse Management Dashboard"
-              date="2022"
-              description="Real-time inventory monitoring dashboard."
-              impact="Reduced update latency from 30s to 1s."
-              tags={["React","Node.js","MySQL","AWS"]}
-            />
+          <TimelineProject
+            title="ClaimFlow — Real-Time Claims Processing Dashboard"
+            date="Aug 2023 – Jun 2024"
+            description="Real-time claims processing dashboard for insurance agents with live updates and workflow automation."
+            impact="Reduced agent response time by 40%."
+            tags={["React","Redux Toolkit","Node.js","MongoDB","Redis","AWS"]}
+          />
 
-            <TimelineProject
-              title="Notification Engine"
-              date="2021"
-              description="Serverless alert system for enterprise notifications."
-              impact="Handled 500k notifications daily."
-              tags={["AWS Lambda","SNS","SQS"]}
-            />
+          <TimelineProject
+            title="InsightHub — Enterprise Intranet Portal"
+            date="Feb 2022 – Jul 2023"
+            description="SharePoint intranet platform with custom SPFx web parts and document approval workflow."
+            impact="Reduced document approval process from 5 days to under 8 hours."
+            tags={["SPFx","React","TypeScript","Node.js","PostgreSQL"]}
+          />
 
           </div>
 
