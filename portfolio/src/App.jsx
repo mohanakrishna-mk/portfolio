@@ -173,8 +173,6 @@ export default function App() {
 
         </section>
 
-
-
         {/* PROJECTS */}
 
         <section className="mb-24">
@@ -185,29 +183,60 @@ export default function App() {
 
           <div className="relative border-l border-gray-300 ml-4 space-y-12">
 
-          <TimelineProject
-            title="ConnectOne — Digital Customer Onboarding Platform"
-            date="Jul 2024 – Present"
-            description="Digital KYC onboarding platform with document upload, OCR verification and compliance workflow."
-            impact="Reduced manual KYC review workload by 50%."
-            tags={["Next.js","Node.js","PostgreSQL","Redis","AWS","Docker"]}
-          />
+            <TimelineProject
+              title="Serverless Notification Engine — FinTech Platform"
+              date="Jan 2024 – Present"
+              description="Multi-channel notification platform supporting email, SMS and in-app alerts. Built scalable event-driven workflows using AWS services."
+              impact="Processes ~50K notification events per day with retry queues and delivery analytics."
+              tags={[
+                "React 18",
+                "Redux Toolkit",
+                "TypeScript",
+                "Node.js",
+                "AWS Lambda",
+                "SQS",
+                "SNS",
+                "SES",
+                "EventBridge",
+                "DynamoDB"
+              ]}
+            />
 
-          <TimelineProject
-            title="ClaimFlow — Real-Time Claims Processing Dashboard"
-            date="Aug 2023 – Jun 2024"
-            description="Real-time claims processing dashboard for insurance agents with live updates and workflow automation."
-            impact="Reduced agent response time by 40%."
-            tags={["React","Redux Toolkit","Node.js","MongoDB","Redis","AWS"]}
-          />
+            <TimelineProject
+              title="Insurance Claims Processing Platform"
+              date="Nov 2022 – Dec 2023"
+              description="Enterprise claims management system enabling agents to submit, review and approve insurance claims with real-time workflow updates."
+              impact="Reduced claim detail load time from 4.2s to under 900ms through Redis caching and PostgreSQL query optimization."
+              tags={[
+                "React",
+                "Redux",
+                "Node.js",
+                "Express",
+                "PostgreSQL",
+                "Redis",
+                "Socket.IO",
+                "AWS EC2",
+                "Docker"
+              ]}
+            />
 
-          <TimelineProject
-            title="InsightHub — Enterprise Intranet Portal"
-            date="Feb 2022 – Jul 2023"
-            description="SharePoint intranet platform with custom SPFx web parts and document approval workflow."
-            impact="Reduced document approval process from 5 days to under 8 hours."
-            tags={["SPFx","React","TypeScript","Node.js","PostgreSQL"]}
-          />
+            <TimelineProject
+              title="Digital Customer Onboarding Platform"
+              date="Jun 2021 – Oct 2022"
+              description="Customer onboarding system with multi-step application workflow, document uploads and reviewer approval dashboard."
+              impact="Reduced onboarding abandonment rate from 30% to 8% using optimized Next.js workflows."
+              tags={[
+                "Next.js",
+                "React",
+                "Node.js",
+                "Express",
+                "PostgreSQL",
+                "MySQL",
+                "AWS ECS Fargate",
+                "S3",
+                "SQS"
+              ]}
+            />
 
           </div>
 
