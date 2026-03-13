@@ -185,7 +185,7 @@ export default function App() {
 
             <TimelineProject
               title="Serverless Notification Engine — FinTech Platform"
-              date="Jan 2024 – Present"
+              date="Oct 2024 – Present"
               description="Multi-channel notification platform supporting email, SMS and in-app alerts. Built scalable event-driven workflows using AWS services."
               impact="Processes ~50K notification events per day with retry queues and delivery analytics."
               tags={[
@@ -204,12 +204,13 @@ export default function App() {
 
             <TimelineProject
               title="Insurance Claims Processing Platform"
-              date="Nov 2022 – Dec 2023"
+              date="Aug 2023 – Sep 2024"
               description="Enterprise claims management system enabling agents to submit, review and approve insurance claims with real-time workflow updates."
               impact="Reduced claim detail load time from 4.2s to under 900ms through Redis caching and PostgreSQL query optimization."
               tags={[
                 "React",
                 "Redux",
+                "TypeScript",
                 "Node.js",
                 "Express",
                 "PostgreSQL",
@@ -222,12 +223,13 @@ export default function App() {
 
             <TimelineProject
               title="Digital Customer Onboarding Platform"
-              date="Jun 2021 – Oct 2022"
+              date="Feb 2022 – Jul 2023"
               description="Customer onboarding system with multi-step application workflow, document uploads and reviewer approval dashboard."
               impact="Reduced onboarding abandonment rate from 30% to 8% using optimized Next.js workflows."
               tags={[
                 "Next.js",
                 "React",
+                "TypeScript",
                 "Node.js",
                 "Express",
                 "PostgreSQL",
