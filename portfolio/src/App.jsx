@@ -227,7 +227,7 @@ export default function App() {
               description="Customer onboarding system with multi-step application workflow, document uploads and reviewer approval dashboard."
               impact="Reduced onboarding abandonment rate from 30% to 8% using optimized Next.js workflows."
               tags={[
-                "Next.js",
+                "Redhux",
                 "React",
                 "TypeScript",
                 "Node.js",
